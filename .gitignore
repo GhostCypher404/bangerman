@@ -1,0 +1,64 @@
+# ============================================
+# BangDev — BangerMan .gitignore
+# ============================================
+
+# Build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+build-*/*
+
+# Autotools
+*.lo
+*.la
+*.dep
+
+# SDL-generated / cache
+*.bmp
+*.png
+*.tga
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.vscode/*
+.idea/
+*.swp
+*.swo
+*.kate-swp
+
+# Emacs
+*~
+\#*\#
+.emacs.desktop
+.emacs.desktop.lock
+tramp
+
+# Xcode
+xcuserdata/
+*.xcworkspace/
+*.xcodeproj/*
+
+# Backup
+*.bak
+*.old
+*.tmp
