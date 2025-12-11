@@ -1,4 +1,4 @@
-# BangerMan — Tiny 2D Render Command Recorder (Single-Header Library)
+# BangerMan — Tiny 2D Render Command Recorder (Single-Header Library) v.02
 
 **BangerMan** is a lightweight, backend-agnostic **2D render command recorder** written in C (C99).  
 It is designed for **pixel-art engines**, **retro toolchains**, and **general 2D games**, following the philosophy of libraries like **stb**, **nanovg**, and **clay**.
